@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>GM Auto</title>
+  <link rel="shortcut icon" href="image/48572-camaro-car-front.png" />
+  
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Josefin+Sans:400,600,700,400italic,600italic);
+
+body{
+	font-family: 'josefin sans';
+	font-size: 16px;
+    
+
+    
+	
+}
+/* https://images.unsplash.com/photo-1439902315629-cd882022cea0?fit=crop&fm=jpg&h=975&q=80&w=1925 */
+.hero{
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 9;
+	transition: all 1.6s cubic-bezier(0.86, 0, 0.07, 1);
+}
+.hero.scrolled{
+	transform: translate3d(0, -100%, 0) scale(.75);
+	opacity: 0;
+}
+.hero-inner{
+		background-image: url('image/yellow-cars-vehicle-car-ferrari-458-dark-supercars-garage-front.png');
+		background-size: cover;
+	background-position: center;
+	display: table;
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+}
+.hero-title{
+	display: table-cell;
+	vertical-align: middle;	
+	text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: montserrat;
+}
+.font-2{
+	font-family: 'josefin sans';
+	font-weight: 700;
+}
+.title{ letter-spacing: .3em; text-transform: uppercase; }
+.text-light{ color: #fff }
+.font-alt{
+	font-family: 'georgia';
+	font-style: italic;
+	color: #666;
+}
+.hero{
+	overflow: hidden;
+	z-index: 1;
+}
+.content{
+	position: relative;
+	background-color: #fff;
+	border-top: 10px solid black;
+	padding: 0;	
+	margin: 0;
+	transition: all 1.6s cubic-bezier(0.86, 0, 0.07, 1);
+	transform: translate3d(0, 20px, 0) scale(.75);
+	opacity: 0;
+}
+.content.scrolled{
+	transform: translate3d(0, 0, 0) scale(1);	
+	opacity: 1;
+}
+.sd{
+	color: #fff;
+	position: absolute;
+	bottom: 20px;
+	left: 65%;
+	transform: translateX(-50%);
+}
+.sd:hover, .sd:focus{
+	color: #fff;
+	opacity: .7;
+	text-decoration: none;
+}
+.container1 {
+  position: relative;
+  font-family: Arial;
+  width:50%;
+  float:left;
+    padding-left: 4%;
+}
+.container2 {
+  position: relative;
+  font-family: Arial;
+  width:50%;
+  float:left;
+}
+          .container3 {
+  position: relative;
+  font-family: Arial;
+  width:80%;
+  float:left;
+    padding-left: 4%;
+}
+.container4 {
+  position: relative;
+  font-family: Arial;
+  width:20%;
+  float:left;
+}
+.text-block {
+  position: absolute;
+  bottom: 0px;
+  background: rgba(255, 0, 0,0.4);
+  color: white;
+  
+}
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+  <div class="hero">
+	<div class="hero-inner">
+			<div class="hero-title">
+                <img src="image/logo.png" style="width: 30%;margin-top: -10%;">
+			</div><br>
+            
+			<a href="#" class="sd" >Scroll Down<br><img src="image/gif-arrow.gif" style="width:10%;margin-bottom:-8%;margin-left:15px;"></a>
+	</div>
+      
+</div>
+<div class="content clearfix" >
+	<div class="container" style="padding-top: 60px">
+		<div class="row" style="background-color: skyblue;box-shadow:10px 10px 25px grey;">
+			<div class="col-md-5" >
+				<h2 class="text-uppercase">INTRO</h2>
+				
+			<div class="col-md-7">
+               
+				<p style="padding-top: 40px;width: 460%;">Its a sample website, in which you can get to know about some cars. Also you get know about the Automobile companies and their subsidiries. Here, i am not going to include all the companies but just some companies. I am going to provide a brief knowledge about car systems like engine, suspension, body, etc........... </p>			
+			</div>
+		</div>	
+	</div>
+	
+</div>
+    <h2 class="text-uppercase" style="margin-top:10%;text-align: center;color: rgb(0, 102, 204);">EXPLORE IT</h2>
+    <p style="text-align: center;color: rgb(255, 51, 51);">Find the Car that’s the perfect fit for your lifestyle, driving style and personal tastes.</p>
+    
+    
+   
+    
+    
+    
+    <div id="section1" style="padding-top: 5%;">
+    <div class="container1">
+        <a href="license.txt"><img src="image/1200-Lamborghini-Lambo-l.jpg" alt="Nature" style="width:99.4%;">
+        <div class="text-block" style="width:91.3%;"> 
+    <h4>Companies and its subsidiaries<i class="fa fa-arrow-right" style="font-size:17px;color: aliceblue;padding-left:50%;"></i></h4>
+  </div></a>
+</div>
+<div class="container2">
+  <a href="license.txt"><img src="image/59c0a4b045482.jpeg" alt="Nature" style="width:90%;">
+    <div class="text-block" style="width:90%;"> 
+    <h4>All Models<i class="fa fa-arrow-right" style="font-size:17px;color: aliceblue;padding-left:80%;"></i></h4>
+      </div></a>
+    
+</div>
+        <div class="container2" style="padding-top:1%;">
+ <a href="license.txt"> <img src="image/Dodge_2018_Challenger_SRT_Hellcat_Widebody_Wine_537961_3000x2000.jpg" alt="Nature" style="width:90%;">
+    <div class="text-block" style="width:90%;"> 
+    <h4>Ranking of cars<i class="fa fa-arrow-right" style="font-size:17px;color: aliceblue;padding-left:71.5%;"></i></h4>
+     </div></a>
+   
+</div>
+    </div>
+    
+    
+    </div>
+    
+    
+    
+    
+    <h2 class="text-uppercase" style="color: rgb(0, 102, 204);margin-top:10%;margin-left:5%;">Type of Cars</h2><hr style="display: block;
+  border-width:2px;border-color: black;margin-right: 50%;"><hr style="display: block;
+  border-width:2px;border-color: black;margin-right: 51%;margin-top: -2%;"><hr style="display: block;
+  border-width:2px;border-color: black;margin-right: 52%;margin-top: -2%;"><hr style="display: block;
+  border-width:2px;border-color: black;margin-right: 53%;margin-top: -2%;">
+    
+    
+    
+    
+    
+    
+    <div class="container1" style="margin-top:10%;">
+        <div> 
+            <h4 style="font-family: cursive;font-size:30px;color: rgb(255, 51, 51);margin-left:20%;">Hatchback</h4>
+     </div>
+</div>
+<div class="container2">
+ <img src="image/road1.png" alt="Nature" style="width:90%;">
+    <div > 
+        <img src="image/kia_PNG13.png" alt="Nature" style="width:50%;position: absolute;bottom: 0px;">
+     </div>
+    
+</div>
+    
+    
+    
+    
+    
+   <div class="container1" style="margin-top:5%;">
+ <img src="image/road2.png" alt="Nature" style="width:90%;">
+    <div > 
+        <img src="image/Black_Sapphire_Metallic_BMW_7_Sedan_2013_Car_PNG_Clipart-108.png" alt="Nature" style="width:50%;position: absolute;bottom: 0px;margin-left:40%;">
+     </div>
+    
+</div> 
+    <div class="container2" style="margin-top:15%;">
+        <div> 
+            <h4 style="font-family: cursive;font-size:30px;color: rgb(255, 51, 51);margin-left:40%;">Sedan</h4>
+     </div>
+</div>
+    
+    
+    
+    
+    
+    
+  
+  
+   <div class="container1" style="margin-top:18%;">
+ <img src="image/road3.png" alt="Nature" style="width:90%;">
+    <div > 
+        <img src="image/Grand_SpaceTourer_Shine1-1024x576.png" alt="Nature" style="width:50%;position: absolute;bottom: 0px;margin-left:-10%;">
+     </div>
+    
+</div> 
+    <div class="container2" style="margin-top:-12%;">
+        <div> 
+            <h4 style="font-family: cursive;font-size:30px;color: rgb(255, 51, 51);margin-left:40%;">MPV</h4>
+     </div>
+</div>
+    
+    
+    
+    
+     <div class="container1" style="margin-top:5%;">
+ <img src="image/road4.png" alt="Nature" style="width:90%;">
+    <div > 
+        <img src="image/PNGPIX-COM-Jeep-Grand-Cherokee-SUV-Chocolate-Car-PNG-Image.png" alt="Nature" style="width:35%;position: absolute;bottom: 0px;margin-left:48%;">
+     </div>
+    
+</div> 
+    <div class="container2" style="margin-top:15%;">
+        <div> 
+            <h4 style="font-family: cursive;font-size:30px;color: rgb(255, 51, 51);margin-left:40%;">SUV</h4>
+     </div>
+</div>
+    
+  
+    
+   
+    <div class="container1" style="margin-top:15%;">
+ <img src="image/road5.png" alt="Nature" style="width:90%;">
+    <div > 
+        <img src="image/PNGPIX-COM-Blue-Jaguar-C-X17-Sports-Crossover-Car-PNG-Image.png" alt="Nature" style="width:50%;position: absolute;bottom: 0px;margin-left:-10%;">
+     </div>
+    
+</div> 
+    <div class="container2" style="margin-top:-14%;">
+        <div> 
+            <h4 style="font-family: cursive;font-size:30px;color: rgb(255, 51, 51);margin-left:40%;">Crossover</h4>
+     </div>
+</div>
+    
+    
+   
+    
+    <div class="container1" style="margin-top:6%;">
+ <img src="image/road6.png" alt="Nature" style="width:90%;">
+    <div > 
+        <img src="image/CONTINENTAL.png" alt="Nature" style="width:45%;position: absolute;bottom: 0px;margin-left:48%;">
+     </div>
+    
+</div> 
+    <div class="container2" style="margin-top:15%;">
+        <div> 
+            <h4 style="font-family: cursive;font-size:30px;color: rgb(255, 51, 51);margin-left:40%;">Coupe</h4>
+     </div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    <div class="container1" style="margin-top:15%;margin-bottom: 00%;">
+ <img src="image/road7.png" alt="Nature" style="width:90%;">
+    <div > 
+        <img src="image/580b585b2edbce24c47b2c0b.png" alt="Nature" style="width:50%;position: absolute;bottom: 0px;margin-left:-10%;">
+     </div>
+    
+</div> 
+    <div class="container2" style="margin-top:-14%;">
+        <div> 
+            <h4 style="font-family: cursive;font-size:30px;color: rgb(255, 51, 51);margin-left:40%;">Convertiblke</h4>
+     </div>
+</div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script src='http://achtungthemes.com/gnoli/js/lib/scripts.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.0/SmoothScroll.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
